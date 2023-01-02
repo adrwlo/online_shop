@@ -1,0 +1,100 @@
+.title-container {
+    background-image: url("background.jpg");
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.title-container h1 {
+    color: #8DBC76;
+    font-size: 40px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+
+input[type=submit] {
+    width: 300px;
+    height: 50px;
+    background-color: #8DBC76;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+input[type=submit]:hover {
+    border-style: solid;
+    border-color: #8DBC76;
+    background-color: white;
+    color: #8DBC76;
+    transition: all ease-in-out 0.5s;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+input[type=text]:placeholder-shown {
+    font-size: 18px;
+}
+
+input[type=text]:hover, input[type=text]:focus, input[type=text]:active {
+    outline-width: 0;
+}
+
+input[type=password] {
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+input[type=password]:placeholder-shown {
+    font-size: 18px;
+}
+
+input[type=password]:hover, input[type=password]:focus, input[type=password]:active {
+    outline-width: 0;
+}
+
+input[type=radio] {
+    margin: 10px;
+}
+
+#regulamin-accept {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+#regulamin-accept input[type=checkbox] {
+     margin-top: 5px;
+     margin-right: 4px;
+}
+
+.errorText {
+    color:red;
+    margin-bottom: -2px;
+}

@@ -1,0 +1,70 @@
+.title-container {
+    background-image: url("background.jpg");
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.title-container h1 {
+    color: #8DBC76;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    width: 50%;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#select1, #select2 {
+    width: 80px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 25px;
+}
+
+#sprawdz {
+    width: 140px;
+    background-color: #8DBC76;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 5px;
+}
+
+#sprawdz:hover {
+    border-style: solid;
+    border-color: #8DBC76;
+    background-color: white;
+    color: #8DBC76;
+    transition: all ease-in-out 0.5s;
+}
+
+.slide-container {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .slide-container {
+        display: none;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+    
+}

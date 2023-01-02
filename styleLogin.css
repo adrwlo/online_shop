@@ -1,0 +1,108 @@
+.title-container {
+    background-image: url("background.jpg");
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.title-container h1 {
+    color: #8DBC76;
+    font-size: 40px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+}
+
+input[type=submit] {
+    background-color: #8DBC76;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+input[type=submit]:hover {
+    border-style: solid;
+    border-color: #8DBC76;
+    background-color: white;
+    color: #8DBC76;
+    transition: all ease-in-out 0.5s;
+}
+
+input[type=text]{
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+input[type=text]:placeholder-shown {
+    font-size: 18px;
+}
+
+input[type=text]:hover, input[type=text]:focus, input[type=text]:active {
+    outline-width: 0;
+}
+
+input[type=password]{
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+input[type=password]:placeholder-shown {
+    font-size: 18px;
+}
+
+input[type=password]:hover, input[type=password]:focus, input[type=password]:active {
+    outline-width: 0;
+}
+
+
+#registerButton {
+    width: 250px;
+    background-color: #8DBC76;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+#registerButton:hover {
+    border-style: solid;
+    border-color: #8DBC76;
+    background-color: white;
+    color: #8DBC76;
+    transition: all ease-in-out 0.5s;
+}
+
+.form-container {
+    margin: 50px;
+
+}
+
+.second-container {
+    text-align: center;
+    margin: 50px;
+}
+
+ @media only screen and (max-width: 770px) {
+    .form-container {
+        margin: 20px;
+    }
+    .second-container {
+        text-align: center;
+        margin: 20px;
+    }
+} 
